@@ -2,7 +2,8 @@
 Licensee allows you to manage user permissions and roles in a database without specificing or maintaining roles staticaly.
 licensee is an package made for Laravel 5.5
  - It will detech role and permissions slug from routes
- - Developer can also att custom permission in config
+ - Developer can also add custom permission in config
+
 **Installation:**
  - Just fire below command to root of your Laravel app with composer.
 ````php
