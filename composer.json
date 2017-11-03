@@ -1,0 +1,27 @@
+{
+    "name": "rakshitbharat/licensee",
+    "description": "Licensee allows you to manage user permissions and roles in a database without specificing or maintaining roles staticaly.",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "author": {
+        "name": "Rakshit Patel ",
+        "email": "info@timestart.in"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rakshitbharat\\Licensee\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rakshitbharat\\Licensee\\LicenseeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
